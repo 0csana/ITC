@@ -43,9 +43,15 @@ document.addEventListener("DOMContentLoaded", () => {
     if (income <= 250000) {
       tax = 0;
     } else if (income <= 400000) {
-      tax = (income - 250000) * 0.1;
+      tax = (income - 250000) * 0.15;
+    } else if (income <= 800000) {
+      tax = (income - 400000) * 0.2 + 22500;
+    } else if (income <= 2000000) {
+      tax = (income - 800000) * 0.25 + 102500;
+    } else if (income <= 8000000) {
+      tax = (income - 2000000) * 0.3 + 402500;
     } else {
-      tax = (income - 400000) * 0.2 + 15000; // 15,000 tax for income up to 400k
+      tax = income * 0.35 ; 
     }
 
     document.getElementById("taxResult").textContent = `Your tax is: ₱${tax.toFixed(2)}`;
