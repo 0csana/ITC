@@ -1,0 +1,123 @@
+body 
+{
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f5dc; 
+  color: #333333; 
+  margin: 0;
+  padding: 0;
+}
+
+header 
+{
+  background-color: #556b2f; 
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+header h1 
+{
+  margin: 0;
+  font-size: 2.5rem;
+  color: #ffffff; 
+}
+
+header p 
+{
+  font-size: 1.2rem;
+  color: #e0e0e0; 
+}
+
+nav 
+{
+  background-color: #6b8e23; 
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+nav ul 
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li 
+{
+  margin: 0;
+}
+
+nav ul li a 
+{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-color: #8fbc8f; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover 
+{
+  background-color: #556b2f; 
+  transform: scale(1.05);
+}
+
+main 
+{
+  padding: 2rem;
+}
+
+section 
+{
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border: 2px solid #556b2f;
+  border-radius: 10px;
+  background-color: #faf9e6; 
+}
+
+h2 
+{
+  color: #556b2f; 
+}
+
+input, select, button 
+{
+  display: block;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #6b8e23;
+  border-radius: 5px;
+}
+
+button 
+{
+  background-color: #8fbc8f; 
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover 
+{
+  background-color: #556b2f; 
+  transform: scale(1.1);
+}
+
+footer 
+{
+  background-color: #556b2f;
+  text-align: center;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+footer p 
+{
+  margin: 0;
+}
